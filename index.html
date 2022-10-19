@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Timer</title>
+</head>
+<body>
+    <div class="container-timer">
+        <div class="timer">
+            <span class="minutes">25</span>
+            <span>:</span>
+            <span class="seconds">00</span>
+        </div>
+        <div class="controls">
+
+            <button class="play">Play</button>
+            <button class="pause hide btn-style"><img src="assets/pause-circle.svg" alt="Botão para pausar o contador"></button>
+            <button class="stop hide btn-style"><img src="assets/stop-circle.svg" alt="Botão para parar o contador"></button>
+
+        </div>
+
+        <div class="select-time">
+            <div class="focus-section">
+                <h3>Foco</h3>
+                <button class="btn one">25:00</button>
+                <button class="btn two">30:00</button>
+                <button class="btn three">40:00</button>
+            </div>
+
+            <div class="pause-section">
+                <h3>Pausa</h3>
+                <button class="btn four">05:00</button>
+                <button class="btn five">10:00</button>
+                <button class="btn six">15:00</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index.js" type="module"></script>
+    <script src="js/elements.js"></script>
+</body>
+</html>
