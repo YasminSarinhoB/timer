@@ -6,7 +6,7 @@ export function countDown() {
         let minutes = Number(displayMinutes.textContent);
         
         if (seconds <= 0 && minutes > 0){
-            seconds = 5;
+            seconds = 60;
             displayMinutes.textContent = String(minutes - 1).padStart(2, 0)
         }
 
